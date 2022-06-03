@@ -1,0 +1,15 @@
+
+    
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !favicon.ico
+#RewriteRule .* index.php [L]
+
+php_value upload_max_filesize  10240M
+php_value post_max_size 10245M
+php_value max_allowed_packet = 10248M
+
+php_value max_execution_time 20000
+php_value max_input_time 20000
+
+php_value memory_limit 10240M
+php_value max_input_time 20000

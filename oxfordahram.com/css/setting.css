@@ -1,0 +1,241 @@
+
+body
+{
+    
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0, 0.9999);
+    direction: rtl;
+}
+.p1
+{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 35px;
+    color: rgb(73, 115, 196);
+}
+.textarea1
+{
+    text-align: center;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    margin-right: 36.46%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.textarea2
+{
+    text-align: center;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    margin-right: 36.46%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.input1
+{
+    font-size: 25px;
+    background-color: #ffcf95;
+    padding-top:   10px;
+    padding-bottom:10px;
+    padding-right: 55px;
+    padding-left:  55PX;
+    margin-top:    25px;
+    margin-right: 55%;
+}
+.p2
+{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(73, 115, 196);
+}
+@media (min-width:1601px)/*large labtob*/
+{
+    .p1
+{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 40px;
+    color: rgb(73, 115, 196);
+}
+.textarea1
+{
+    text-align: center;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    margin-right: 36.46%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.textarea2
+{
+    text-align: center;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    margin-right: 36.46%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.input1
+{
+    font-size: 25px;
+    background-color: #ffcf95;
+    padding-top:   10px;
+    padding-bottom:10px;
+    padding-right: 55px;
+    padding-left:  55PX;
+    margin-top:    25px;
+    margin-right: 55%;
+}
+.p2
+{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(73, 115, 196);
+}
+}
+
+@media (min-width:1201px) and (max-width:1600px)  /*large labtob*/
+{
+     .p1
+    {
+        font-size: 35px;
+        margin-right: -10%;
+    }
+    
+    .textarea1
+    {
+     margin-right: 30%; 
+    }
+    
+    .textarea2
+    {
+        margin-right: 30%;
+    }
+   .p2
+    {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 5%;
+        margin-right: -5%;
+    }
+    .input1
+    {
+        margin-right: 44%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) /*labtob*/
+{
+     .p1
+    {
+        font-size: 30px;
+        margin-right: 10%;
+    }
+    
+    .textarea1
+    {
+     margin-right: 30%; 
+    }
+    
+    .textarea2
+    {
+        margin-right: 30%;
+    }
+   .p2
+    {
+        font-size: 30px;
+        margin-top: 8%;
+        margin-right: 3%;
+    }
+    .input1
+    {
+        margin-right: 44%;
+    }
+}
+@media (min-width:768px) and (max-width:991px) /*tablets*/
+{
+    .p1
+    {
+        font-size: 30px;
+        margin-right: 5%;
+    }
+    
+    .textarea1
+    {
+     margin-right: 22%; 
+    }
+    
+    .textarea2
+    {
+        margin-right: 22%;
+    }
+   .p2
+    {
+        font-size: 30px;
+        margin-top: 14%;
+        margin-right: 5%;
+    }
+    .input1
+    {
+        margin-right: 44%;
+    }
+}
+
+@media (min-width:550px) and (max-width:767px) /*phones*/
+{
+    .p1
+    {
+        font-size: 25px;
+    }
+    
+    .textarea1
+    {
+     margin-right: 14%; 
+    }
+    
+    .textarea2
+    {
+        margin-right: 14%;
+    }
+   .p2
+    {
+        font-size: 25px;
+        margin-top: 18%;
+    }
+    .input1
+    {
+        margin-right: 42%;
+    }
+}
+
+@media (max-width:549px)/*mini phones*/
+{
+    .p1
+    {
+        font-size: 25px;
+    }
+    
+    .textarea1
+    {
+     margin-right: 3.46%; 
+    }
+    
+    .textarea2
+    {
+        margin-right: 3.46%;
+    }
+   .p2
+    {
+        font-size: 25px;
+        margin-top: 16%;
+    }
+    .input1
+    {
+        margin-right: 65%;
+    }
+}

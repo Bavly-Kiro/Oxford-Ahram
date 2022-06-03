@@ -1,0 +1,208 @@
+body
+{
+    background-image: url('../images/cover%20live.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    direction: rtl;
+}
+
+.icon
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    margin-right: 40px;
+
+}
+
+.icon:hover
+{
+    transition: all .8s ease-in-out;
+    transform: scale(1.1,1.1);
+}
+
+
+.p1
+{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 35px;
+    color: white;
+    font-family: 'Amiri', serif;
+     
+}
+.textarea1
+{
+    text-align: center;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    margin-right: 36.46%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.input1
+{
+    font-size: 25px;
+    background-color: rgba(232, 232, 232, 0.9);
+    padding-top:   10px;
+    padding-bottom:10px;
+    padding-right: 55px;
+    padding-left:  55PX;
+    margin-top:    25px;
+    margin-right: 55%; 
+    font-family: 'Amiri', serif;
+    
+}
+.input1:hover
+{
+    background-color: rgba(253, 239, 181, 0.9);
+    transition: all .2s ease-in-out;
+    transform: scale(1.1,1.1);
+}
+.div
+{
+   
+    background-color: rgba(0, 0, 0, 0.96);
+    height: 250px;
+
+ 
+}
+
+
+@media (min-width:1601px)/*large labtob*/
+{
+    
+        body
+    {
+        height: 937px
+    }
+    .p1
+{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 40px;
+    color: white;
+ 
+}
+.textarea1
+{
+    text-align: center;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    margin-right: 36.46%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+}
+
+@media (min-width:1201px) and (max-width:1600px)  /*large labtob*/
+{
+    
+    body
+    {
+        height: 937px
+    }
+     .p1
+    {
+        font-size: 35px;
+        margin-right: -10%;
+    }
+    
+    .textarea1
+    {
+     margin-right: 30%; 
+    }
+    
+}
+
+@media (min-width:992px) and (max-width:1200px) /*labtob*/
+{
+    
+        body
+    {
+        height: 937px
+    }
+     .p1
+    {
+        font-size: 30px;
+        margin-right: 10%;
+    }
+    
+    .textarea1
+    {
+     margin-right: 30%; 
+    }
+    
+
+}
+@media (min-width:768px) and (max-width:991px) /*tablets*/
+{
+        body
+    {
+        height: 937px
+    }
+    .p1
+    {
+        font-size: 30px;
+        margin-right: 5%;
+    }
+    
+    .textarea1
+    {
+     margin-right: 22%; 
+    }
+
+}
+
+@media (min-width:550px) and (max-width:767px) /*phones*/
+{
+        body
+    {
+        height: 937px
+    }
+    .p1
+    {
+        font-size: 25px;
+    }
+    
+    .textarea1
+    {
+     margin-right: 14%; 
+        width: 450px
+    }
+
+}
+
+@media (max-width:549px)/*mini phones*/
+{
+        body
+    {
+        height: 937px
+    }
+    .p1
+    {
+        font-size: 25px;
+    }
+    
+    .textarea1
+    {
+     margin-right: 14%; 
+        width: 290px
+    }
+    .input1
+{
+    font-size: 20px;
+    background-color: #fff7d5;
+    padding-top:   5px;
+    padding-bottom:5px;
+    padding-right: 45px;
+    padding-left:  45PX;
+    margin-top:    25px;
+    margin-right: 40%;
+}
+
+}

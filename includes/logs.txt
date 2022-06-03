@@ -1,0 +1,3 @@
+2021/03/30Error: SELECT * FROM courses    
+2021/05/06Error: SELECT * FROM courses    
+2021/05/19Error: SELECT * FROM courses    

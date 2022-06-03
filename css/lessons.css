@@ -1,0 +1,132 @@
+body
+{
+     background-image: url('../images/lessons cover.jfif');
+    background-repeat: no-repeat;
+    background-position:center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+
+
+.lessons-tabs
+{
+
+    width: 400px;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 25px;
+    margin-top: 2.5%;
+    margin-left: 38%;
+
+}
+
+.text-link
+{
+    
+    display: block;
+    padding: 40px 40px;
+    margin-top: 8.5%;
+    background-color: rgb(0 0 0 / 76%);
+    border-radius: 25px;
+    
+}
+
+.text-link:active, .text-link:link, .text-link:visited
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.text-link:hover
+{
+    text-decoration: none;
+    transition: all .8s ease-in-out;
+    transform: scale(1.1,1.1);
+    background-color: rgba(163, 35, 35, 0.94);
+    color: aliceblue;
+}
+@media (min-width:1901px)/*large labtob*/
+{
+      .lessons-tabs
+    {
+        margin-left: 38%;
+    }
+    
+    .text-link
+    {
+        margin-top: 8.5%;
+    }
+}
+@media (min-width:1601px) and (max-width:1900px)/*large labtob*/
+{
+      .lessons-tabs
+    {
+        margin-left: 33.5%;
+    }
+    
+    .text-link
+    {
+        margin-top: 12.1%;
+    }
+}
+@media (min-width:1201px) and (max-width:1600px)  /*large labtob*/
+{
+      .lessons-tabs
+    {
+        margin-left: 33.5%;
+    }
+    
+    .text-link
+    {
+        margin-top: 12.1%;
+    }
+}
+@media (min-width:992px) and (max-width:1200px) /*labtob*/
+{
+     .lessons-tabs
+    {
+        margin-left: 29%;
+    }
+    
+    .text-link
+    {
+        margin-top: 12.1%;
+    }
+}
+@media (min-width:768px) and (max-width:991px) /*tablets*/
+{
+     .lessons-tabs
+    {
+        margin-left: 25%;
+    }
+    
+    .text-link
+    {
+        margin-top: 12.2%;
+    }
+}
+@media (min-width:550px) and (max-width:767px) /*phones*/
+{
+    .lessons-tabs
+    {
+        margin-left: 20%;
+    }
+    
+    .text-link
+    {
+        margin-top: 15.5%;
+    }
+}
+@media (max-width:549px)/*mini phones*/
+{
+    .lessons-tabs
+    {
+        margin-left: 14%;
+    }
+    
+    .text-link
+    {
+        margin-top: 15.5%;
+    }
+}
